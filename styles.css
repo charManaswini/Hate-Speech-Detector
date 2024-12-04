@@ -1,0 +1,72 @@
+/* Import Sour Gummy font */
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy&display=swap');
+
+body {
+    font-family: 'Sour Gummy', cursive;
+    text-align: center;
+    background-color: #C4DFE6;
+    color: black;
+}
+
+h1 {
+    color: #66A5AD;
+}
+
+#chat-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 500px;
+    padding: 15px;
+    border: 1px solid #66A5AD;
+    border-radius: 10px;
+    background-color: #66A5AD;
+}
+
+#chat-box {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    height: 300px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+}
+
+#user-input {
+    width: calc(100% - 60px);
+    padding: 8px;
+    border: 1px solid #66A5AD;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #66A5AD;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.message-user {
+    text-align: right;
+    color: #66A5AD;
+}
+
+.message-bot {
+    text-align: left;
+    color: black;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.video-tile {
+    border: 2px solid #66A5AD;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #C4DFE6;
+}
