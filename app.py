@@ -5,7 +5,7 @@ import cv2
 app = Flask(__name__)
 
 # Your Gemini API key
-GEMINI_API_KEY = "AIzaSyCMZaggKNyhuInr8FK6TtN39x-gFHA2aWw"
+GEMINI_API_KEY = "ur_gemini_api_key"
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Save hate speech words to tweet_analysis.txt
